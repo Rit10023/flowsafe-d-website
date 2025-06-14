@@ -1,80 +1,112 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Flowsafe-D Information</title>
+  <title>Safeflow-D | Sapline Pharma</title>
   <style>
     * {
       box-sizing: border-box;
     }
-
     body {
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(120deg, #e0f7fa, #e1bee7);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-
-    .card {
-      background-color: white;
-      padding: 24px;
-      margin: 16px;
-      border-radius: 16px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-      max-width: 500px;
-      width: 100%;
-      text-align: center;
-    }
-
-    .brand {
-      font-size: 6vw;
-      color: #673ab7;
-      font-weight: bold;
-      margin-bottom: 12px;
-    }
-
-    .composition {
-      font-size: 4.5vw;
+      background-color: #f8f8f8;
       color: #333;
-      line-height: 1.6;
     }
-
-    .company {
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 24px 16px;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+    .title {
+      text-align: center;
+      font-size: 7vw;
+      font-weight: bold;
+      color: #00695c;
+    }
+    h2 {
       margin-top: 24px;
-      font-size: 3.8vw;
-      color: #777;
-      font-weight: 500;
-      letter-spacing: 0.5px;
+      color: #444;
+      font-size: 5vw;
     }
-
+    p {
+      line-height: 1.6;
+      margin: 8px 0;
+      font-size: 4.5vw;
+    }
+    ul {
+      margin: 8px 0 16px 16px;
+      padding-left: 16px;
+    }
+    li {
+      margin-bottom: 6px;
+      font-size: 4.5vw;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 24px;
+      color: #666;
+      font-size: 3.8vw;
+    }
     @media (min-width: 600px) {
-      .brand {
-        font-size: 28px;
-      }
-      .composition {
-        font-size: 16px;
-      }
-      .company {
-        font-size: 14px;
-      }
+      .title { font-size: 36px; }
+      h2 { font-size: 22px; }
+      p, li { font-size: 16px; }
+      .footer { font-size: 14px; }
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <div class="brand">Flowsafe-D</div>
-    <div class="composition">
-      Tamsulosin Hydrochloride 0.4 MG <br/>
-      <strong>(as Modified-Release)</strong> &amp; Dutasteride 0.5 MG,<br/>
-      Film Coated Tablet
-    </div>
-    <div class="company">© Sapline Pharma</div>
+  <div class="container">
+    <div class="title">Safeflow-D</div>
+    <p><strong>Composition:</strong> Tamsulosin Hydrochloride 0.4 mg (Modified Release) + Dutasteride 0.5 mg, Film-coated Tablets</p>
+
+    <h2>Tamsulosin</h2>
+    <ul>
+      <li><strong>Alpha-blocker:</strong> Relaxes muscles in the prostate and bladder neck to ease urination.</li>
+      <li><strong>Symptomatic relief:</strong> Improves urine flow, reduces frequency, and helps with nocturia.</li>
+      <li><strong>Dosage:</strong> Typically taken once daily, 30 minutes after breakfast.</li>
+    </ul>
+
+    <h2>Dutasteride</h2>
+    <ul>
+      <li><strong>5-alpha-reductase inhibitor:</strong> Blocks production of DHT, a hormone causing prostate enlargement.</li>
+      <li><strong>Shrinks prostate:</strong> Helps improve urine flow and reduce symptoms.</li>
+      <li><strong>Dosage:</strong> Typically taken once daily.</li>
+    </ul>
+
+    <h2>Combination Therapy</h2>
+    <ul>
+      <li>Tamsulosin + Dutasteride offers both immediate and long-term relief from BPH symptoms.</li>
+    </ul>
+
+    <h2>Benefits</h2>
+    <ul>
+      <li><strong>Improved urine flow</strong> and reduced urinary symptoms.</li>
+      <li><strong>Reduced prostate size</strong> via hormonal effect.</li>
+      <li><strong>Better quality of life</strong> by managing discomfort and improving sleep.</li>
+    </ul>
+
+    <h2>Side Effects</h2>
+    <ul>
+      <li><strong>Tamsulosin:</strong> Dizziness, headache, orthostatic hypotension.</li>
+      <li><strong>Dutasteride:</strong> Decreased libido, erectile dysfunction, breast tenderness.</li>
+    </ul>
+
+    <h2>Consultation</h2>
+    <ul>
+      <li>Always consult a healthcare provider before starting treatment.</li>
+      <li>Inform your doctor about any existing conditions or medications.</li>
+      <li>Report side effects promptly to your doctor.</li>
+    </ul>
+
+    <div class="footer">© Sapline Pharma</div>
   </div>
 </body>
 </html>
